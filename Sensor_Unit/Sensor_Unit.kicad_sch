@@ -1,0 +1,890 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "631e2aad-29d7-4d5a-947a-1d7179af816f")
+	(paper "A4")
+	(lib_symbols)
+	(text "Eaar Loggy - Sensor Unit"
+		(exclude_from_sim no)
+		(at 64.516 17.272 0)
+		(effects
+			(font
+				(size 5.08 5.08)
+				(thickness 1.016)
+				(bold yes)
+			)
+		)
+		(uuid "502bc752-7a71-4c9a-8f62-70ca4d7981c0")
+	)
+	(wire
+		(pts
+			(xy 113.03 110.49) (xy 115.57 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f9cae9-aed9-4e63-a4ee-c23b3b67293d")
+	)
+	(wire
+		(pts
+			(xy 162.56 92.71) (xy 168.91 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b585de-ff8f-41ac-ab48-5796a5832aad")
+	)
+	(wire
+		(pts
+			(xy 162.56 85.09) (xy 168.91 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f24db93-282f-43aa-916b-56dca817dc9f")
+	)
+	(wire
+		(pts
+			(xy 110.49 114.3) (xy 105.41 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fc1e2f6-e215-491c-aa90-36900109655d")
+	)
+	(wire
+		(pts
+			(xy 110.49 106.68) (xy 110.49 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43c3fdbe-a749-441e-a3e4-d6fbe69503f7")
+	)
+	(wire
+		(pts
+			(xy 115.57 106.68) (xy 110.49 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58cce5ae-32b7-45ee-9cc5-56563a1a84ee")
+	)
+	(wire
+		(pts
+			(xy 162.56 88.9) (xy 168.91 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "774da982-a5be-419b-a231-f5fe9df00f90")
+	)
+	(wire
+		(pts
+			(xy 109.22 124.46) (xy 109.22 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79c628c9-2889-49ed-84b4-612a5b4bbf5f")
+	)
+	(wire
+		(pts
+			(xy 151.13 115.57) (xy 151.13 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80837425-ef4c-46f5-9ae6-c2d691165223")
+	)
+	(wire
+		(pts
+			(xy 147.32 115.57) (xy 147.32 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "824ec068-4f44-4804-bb1e-2c106f3d961a")
+	)
+	(wire
+		(pts
+			(xy 162.56 81.28) (xy 168.91 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87bd1e2f-ccdb-447e-b19b-c87b3f6d3e63")
+	)
+	(wire
+		(pts
+			(xy 105.41 114.3) (xy 105.41 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87e55bfd-3aec-4412-8fda-a759b6b1faf1")
+	)
+	(wire
+		(pts
+			(xy 138.43 63.5) (xy 138.43 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c417fe17-68e5-4e80-b0a1-8af3d4536fd3")
+	)
+	(wire
+		(pts
+			(xy 113.03 116.84) (xy 113.03 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4ca1d83-1c53-47ce-bed0-822feaed7529")
+	)
+	(wire
+		(pts
+			(xy 109.22 116.84) (xy 113.03 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f40aa4bb-5327-434e-ac4f-21a58a8024bb")
+	)
+	(global_label "RST_SWITCH"
+		(shape output)
+		(at 162.56 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "22dda190-c494-4a96-a84f-6a7c0f7b9020")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.3263 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "POWER_LED"
+		(shape input)
+		(at 168.91 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2908f651-fe8e-456a-a59d-f0eed55a9fe6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 182.7808 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SAMPLING_LED"
+		(shape input)
+		(at 168.91 92.71 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d0f8e58-02ae-4222-bbe2-cdcbe77c5e0a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 185.5628 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SAMPLING_LED"
+		(shape output)
+		(at 162.56 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "898dd8f9-b11a-42c0-9573-d797aa287106")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.9072 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RST_SWITCH"
+		(shape input)
+		(at 168.91 85.09 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b7618672-4373-4670-b8c8-ccb983574958")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 183.1437 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "POWER_LED"
+		(shape output)
+		(at 162.56 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fe1791ef-41e7-4c7c-9158-ddbf1f42712d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 148.6892 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(sheet
+		(at 226.06 74.93)
+		(size 25.4 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0389e47d-c872-4aeb-a17f-3191bfce2f4e")
+		(property "Sheetname" "range_switching"
+			(at 226.06 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "range_switching.kicad_sch"
+			(at 226.06 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Sensor_Unit"
+				(path "/631e2aad-29d7-4d5a-947a-1d7179af816f"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 83.82 124.46)
+		(size 30.48 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0d774d35-7c15-4ad0-92b7-4a5826196e29")
+		(property "Sheetname" "Xiao and Jlink"
+			(at 83.82 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Xiao_Jlink.kicad_sch"
+			(at 83.82 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "JLink Header" bidirectional
+			(at 105.41 124.46 90)
+			(uuid "c51ec4da-29e2-4616-91d8-0d3acc30902a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PC_COM" bidirectional
+			(at 109.22 124.46 90)
+			(uuid "59a4eb1a-b2d1-443d-a7a0-96c7cf9f7d96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Sensor_Unit"
+				(path "/631e2aad-29d7-4d5a-947a-1d7179af816f"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 226.06 105.41)
+		(size 25.4 17.78)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "301d663a-7d3f-44e9-a5e7-70e6cb7b4f3c")
+		(property "Sheetname" "adc_options"
+			(at 226.06 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "adc_options.kicad_sch"
+			(at 226.06 123.7746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Sensor_Unit"
+				(path "/631e2aad-29d7-4d5a-947a-1d7179af816f"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 48.26)
+		(size 30.48 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "55fbc23f-8772-4f41-8c66-e690c0637b4d")
+		(property "Sheetname" "Power Supply1"
+			(at 39.37 47.5484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "9v_battery.kicad_sch"
+			(at 39.37 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Sensor_Unit"
+				(path "/631e2aad-29d7-4d5a-947a-1d7179af816f"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 69.85)
+		(size 46.99 45.72)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "67e59b68-84f2-4079-b28b-47ca9fd7bf54")
+		(property "Sheetname" "Sensor MCU"
+			(at 115.57 69.1384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensor_mcu.kicad_sch"
+			(at 115.57 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin " TEMP_SENSOR" bidirectional
+			(at 147.32 115.57 270)
+			(uuid "452f73bf-ba42-4252-a3ab-9a4ebd3fb099")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ACCE_SENSOR" bidirectional
+			(at 151.13 115.57 270)
+			(uuid "cc7fcfce-f5eb-4a2c-a4e1-a991c86f9353")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ALARM_LED_ARRAYS" bidirectional
+			(at 162.56 81.28 0)
+			(uuid "5ffa2e2e-574e-4cf4-9390-2fcbc6840566")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "JLink Header" bidirectional
+			(at 115.57 106.68 180)
+			(uuid "d7f61285-7236-4ff2-b939-8cc751a09f72")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OPTIC_LINK" bidirectional
+			(at 138.43 69.85 90)
+			(uuid "1b6cf1ea-858d-410f-bddf-c0e025749649")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PC_COM" bidirectional
+			(at 115.57 110.49 180)
+			(uuid "b46efb48-6123-404c-ac99-f3bdf78ce589")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Sensor_Unit"
+				(path "/631e2aad-29d7-4d5a-947a-1d7179af816f"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 162.56 124.46)
+		(size 30.48 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8c3b92f8-79f7-4091-9e1e-fce45f6671a3")
+		(property "Sheetname" "Current Source"
+			(at 162.56 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Current_Source.kicad_sch"
+			(at 162.56 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Sensor_Unit"
+				(path "/631e2aad-29d7-4d5a-947a-1d7179af816f"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 83.82)
+		(size 30.48 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9c31297e-425b-4427-a1c3-23227f26035d")
+		(property "Sheetname" "Power Supply Subsystem +-15V1"
+			(at 39.37 83.1084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Supply_Subsystem_+-15V.kicad_sch"
+			(at 39.37 113.6146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Sensor_Unit"
+				(path "/631e2aad-29d7-4d5a-947a-1d7179af816f"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 168.91 77.47)
+		(size 30.48 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b50a152a-47d6-4aa0-ae37-c7237a1cb1ea")
+		(property "Sheetname" "Peripherals"
+			(at 168.91 76.7584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "peripherals.kicad_sch"
+			(at 168.91 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ALARM_LED_ARRAYS" bidirectional
+			(at 168.91 81.28 180)
+			(uuid "c83cea7d-ac31-4517-a778-9cd5ddf89298")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Sensor_Unit"
+				(path "/631e2aad-29d7-4d5a-947a-1d7179af816f"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 124.46)
+		(size 30.48 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c1fc27b2-ca38-4016-af9a-d368a755a0c1")
+		(property "Sheetname" "Acce and Temp Sensor"
+			(at 123.19 123.7484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Acce_And_Temp.kicad_sch"
+			(at 123.19 152.9846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin " TEMP_SENSOR" bidirectional
+			(at 151.13 124.46 90)
+			(uuid "0c3d09a1-0eea-493d-ac29-dcf1af5839b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ACCE_SENSOR" bidirectional
+			(at 147.32 124.46 90)
+			(uuid "f5e02a1a-3bf0-4984-99ca-4f6084129d3c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Sensor_Unit"
+				(path "/631e2aad-29d7-4d5a-947a-1d7179af816f"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 123.19 34.29)
+		(size 30.48 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c43fd9d5-36ff-463b-8a2d-b2b6cfcd7b49")
+		(property "Sheetname" "Optical Link"
+			(at 123.19 33.5784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Optical_Link_Sensor.kicad_sch"
+			(at 123.19 64.0846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "OPTIC_LINK" bidirectional
+			(at 138.43 63.5 270)
+			(uuid "639b8760-b49c-4bd0-9b2b-53c88702ea1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Sensor_Unit"
+				(path "/631e2aad-29d7-4d5a-947a-1d7179af816f"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 226.06 41.91)
+		(size 25.4 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dbd4f946-0e70-46e4-9856-682402171601")
+		(property "Sheetname" "voltage_channel_buffers"
+			(at 226.06 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "voltage_channel_buffers.kicad_sch"
+			(at 226.06 61.5446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Sensor_Unit"
+				(path "/631e2aad-29d7-4d5a-947a-1d7179af816f"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

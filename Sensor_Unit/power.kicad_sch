@@ -1,0 +1,92 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "4a00da93-ae9f-4ef5-ba09-fb3191696e45")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 146.05 73.66)
+		(size 39.37 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "497892dc-241c-4b97-b6b7-c2af7c32acac")
+		(property "Sheetname" "Power Supply Subsystem +-15V"
+			(at 146.05 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Supply_Subsystem_+-15V.kicad_sch"
+			(at 146.05 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Sensor_Unit"
+				(path "/631e2aad-29d7-4d5a-947a-1d7179af816f/357970b0-4399-4560-a90f-9b3cd140d022"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 100.33 73.66)
+		(size 40.64 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c9c84bb5-4251-49c3-8cbb-3ec8c44ade42")
+		(property "Sheetname" "Power Supply"
+			(at 100.33 72.9484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "9v_battery.kicad_sch"
+			(at 100.33 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Sensor_Unit"
+				(path "/631e2aad-29d7-4d5a-947a-1d7179af816f/357970b0-4399-4560-a90f-9b3cd140d022"
+					(page "6")
+				)
+			)
+		)
+	)
+)
