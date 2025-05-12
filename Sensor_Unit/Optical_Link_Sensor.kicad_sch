@@ -2171,24 +2171,6 @@
 		(color 0 0 0 0)
 		(uuid "e3012875-a483-4c3d-880b-61455cc697b1")
 	)
-	(bus_entry
-		(at 228.6 60.96)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a4b507c-0b3b-42b3-99c5-838d1abb9aa0")
-	)
-	(bus_entry
-		(at 228.6 57.15)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39eebe99-a01d-4d92-8b9f-7ff6f60077b6")
-	)
 	(wire
 		(pts
 			(xy 254 95.25) (xy 271.78 95.25)
@@ -2339,26 +2321,6 @@
 		)
 		(uuid "600ebe5d-d107-4b73-911c-310ae886ce81")
 	)
-	(bus
-		(pts
-			(xy 228.6 57.15) (xy 228.6 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60325fe5-3d9f-4701-907e-f878b7c4db80")
-	)
-	(wire
-		(pts
-			(xy 231.14 63.5) (xy 233.68 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f75009b-c1cb-409b-8dfb-a9cddd19bb4e")
-	)
 	(wire
 		(pts
 			(xy 262.89 92.71) (xy 262.89 90.17)
@@ -2398,16 +2360,6 @@
 			(type default)
 		)
 		(uuid "7d594eaf-4917-4b26-9d2b-2b05d4767bf9")
-	)
-	(bus
-		(pts
-			(xy 228.6 60.96) (xy 228.6 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8105eed9-6541-4800-b4d5-e17295498163")
 	)
 	(wire
 		(pts
@@ -2518,16 +2470,6 @@
 			(type default)
 		)
 		(uuid "b9a5ead9-f565-4c12-83f7-0695ff35cf3d")
-	)
-	(bus
-		(pts
-			(xy 228.6 55.88) (xy 226.06 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba095cb8-3fc2-4f6e-b830-b2cb9cf870c5")
 	)
 	(wire
 		(pts
@@ -2648,16 +2590,6 @@
 			(type default)
 		)
 		(uuid "e9bc781d-c8eb-4ef1-8cd2-8b2253694c70")
-	)
-	(wire
-		(pts
-			(xy 231.14 59.69) (xy 233.68 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ea6b7d0c-1efd-437b-b070-ddf269ff070b")
 	)
 	(wire
 		(pts
@@ -2946,17 +2878,6 @@
 				(hide yes)
 			)
 		)
-	)
-	(hierarchical_label "OPTIC_LINK"
-		(shape bidirectional)
-		(at 226.06 55.88 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b0d7e9c0-b696-4a70-98c7-367af265b43d")
 	)
 	(symbol
 		(lib_id "power:Earth")

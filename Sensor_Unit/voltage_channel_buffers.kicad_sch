@@ -823,7 +823,17 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 111.76) (xy 62.23 114.3)
+			(xy 59.69 106.68) (xy 62.23 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "016e27b6-a732-47d1-8022-f54a6b24e78b")
+	)
+	(wire
+		(pts
+			(xy 62.23 106.68) (xy 62.23 114.3)
 		)
 		(stroke
 			(width 0)
@@ -840,16 +850,6 @@
 			(type default)
 		)
 		(uuid "075300c4-1b67-47d9-a56b-551a2ade7b7d")
-	)
-	(wire
-		(pts
-			(xy 59.69 66.04) (xy 83.82 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14d0410c-8be5-4b36-9f4f-edc4167ea00f")
 	)
 	(wire
 		(pts
@@ -873,13 +873,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 111.76) (xy 62.23 111.76)
+			(xy 59.69 87.63) (xy 83.82 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2fa29e4a-99e8-417c-a979-ece98fb65bfe")
+		(uuid "31e5a7cf-aea2-47fe-8b9b-447363c661ef")
 	)
 	(wire
 		(pts
@@ -890,6 +890,16 @@
 			(type default)
 		)
 		(uuid "39410b7d-8625-4e6b-bb6b-193992953daf")
+	)
+	(wire
+		(pts
+			(xy 62.23 85.09) (xy 62.23 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cdeb669-568b-43e7-ba3d-523f2554bc9e")
 	)
 	(wire
 		(pts
@@ -943,23 +953,23 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 90.17) (xy 62.23 90.17)
+			(xy 62.23 63.5) (xy 62.23 71.12)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "78c0b6cd-68b4-448c-ac62-c462ec6a8ddc")
+		(uuid "7900b209-9222-475d-9ebd-bf516176e7ae")
 	)
 	(wire
 		(pts
-			(xy 59.69 87.63) (xy 83.82 87.63)
+			(xy 59.69 85.09) (xy 62.23 85.09)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8eeaf643-3aee-4962-87b9-7566807fe40d")
+		(uuid "8cbd61d9-a3fe-4de3-9722-39ff9117eee3")
 	)
 	(wire
 		(pts
@@ -973,6 +983,26 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 109.22) (xy 83.82 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a02ece13-5882-40df-9abf-c523d38ca08e")
+	)
+	(wire
+		(pts
+			(xy 59.69 63.5) (xy 62.23 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a37b64b8-eef4-41f2-ad9e-3963a82395a1")
+	)
+	(wire
+		(pts
 			(xy 81.28 71.12) (xy 81.28 76.2)
 		)
 		(stroke
@@ -980,16 +1010,6 @@
 			(type default)
 		)
 		(uuid "a57cf607-3bbe-41b0-8f70-ede5f5767a0f")
-	)
-	(wire
-		(pts
-			(xy 62.23 48.26) (xy 62.23 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6fc0803-3e29-42e8-8b81-cf786e806628")
 	)
 	(wire
 		(pts
@@ -1023,6 +1043,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 43.18) (xy 62.23 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bda76e38-20fb-425d-8a13-f637118f946a")
+	)
+	(wire
+		(pts
 			(xy 81.28 55.88) (xy 100.33 55.88)
 		)
 		(stroke
@@ -1030,16 +1060,6 @@
 			(type default)
 		)
 		(uuid "c08544dd-fac3-44d5-bb44-9db48f08fdfb")
-	)
-	(wire
-		(pts
-			(xy 59.69 109.22) (xy 83.82 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3661dff-ec32-4804-93c1-11bf67bc8aa0")
 	)
 	(wire
 		(pts
@@ -1063,13 +1083,13 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 68.58) (xy 62.23 68.58)
+			(xy 59.69 66.04) (xy 83.82 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cc553064-a8d1-46bb-bb99-db3d3f827795")
+		(uuid "cd3873b7-f8c3-44a0-a978-609b0de799ab")
 	)
 	(wire
 		(pts
@@ -1090,26 +1110,6 @@
 			(type default)
 		)
 		(uuid "d4653b49-cecb-417a-8d16-ad3e7c2e8d4a")
-	)
-	(wire
-		(pts
-			(xy 59.69 48.26) (xy 62.23 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d76e6a84-ae8a-45ff-b2d0-f08e4b8063cb")
-	)
-	(wire
-		(pts
-			(xy 59.69 45.72) (xy 83.82 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dcdc40ee-74db-4e2c-8ef5-ba76423fedc6")
 	)
 	(wire
 		(pts
@@ -1153,6 +1153,16 @@
 	)
 	(wire
 		(pts
+			(xy 62.23 43.18) (xy 62.23 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8198c86-342c-4338-93a8-552f63f63c4a")
+	)
+	(wire
+		(pts
 			(xy 99.06 111.76) (xy 100.33 111.76)
 		)
 		(stroke
@@ -1163,23 +1173,13 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 90.17) (xy 62.23 92.71)
+			(xy 59.69 45.72) (xy 83.82 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ef6295ac-a42c-492d-9d91-ea0e0fc0fc69")
-	)
-	(wire
-		(pts
-			(xy 62.23 68.58) (xy 62.23 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9b4d108-3262-4f42-ac4a-60050a0fbed9")
+		(uuid "f49b79a2-b45e-41e5-a130-bab9825582fe")
 	)
 	(global_label "CH1_Buffered"
 		(shape input)
@@ -1271,7 +1271,7 @@
 	)
 	(symbol
 		(lib_id "Earr_loggy_sym_lib:691137710002")
-		(at 54.61 48.26 90)
+		(at 54.61 45.72 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1280,7 +1280,7 @@
 		(dnp no)
 		(uuid "05b43916-b4be-4527-a2bd-0cf5c33516b7")
 		(property "Reference" "J8"
-			(at 53.34 45.7199 90)
+			(at 53.34 43.1799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1289,7 +1289,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 64.262 43.18 90)
+			(at 64.262 40.64 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1298,7 +1298,7 @@
 			)
 		)
 		(property "Footprint" "kicad_footprint-library-engg3800-alvin:691137710002"
-			(at 54.61 48.26 0)
+			(at 54.61 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1308,7 +1308,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 48.26 0)
+			(at 54.61 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1317,7 +1317,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 48.26 0)
+			(at 54.61 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1643,7 +1643,7 @@
 	)
 	(symbol
 		(lib_id "Earr_loggy_sym_lib:691137710002")
-		(at 54.61 111.76 90)
+		(at 54.61 109.22 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -1652,7 +1652,7 @@
 		(dnp no)
 		(uuid "4afe5848-dc0e-460a-8907-8de9c98bacdc")
 		(property "Reference" "J11"
-			(at 53.34 109.2199 90)
+			(at 53.34 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1661,7 +1661,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 64.262 106.68 90)
+			(at 64.262 104.14 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1670,7 +1670,7 @@
 			)
 		)
 		(property "Footprint" "kicad_footprint-library-engg3800-alvin:691137710002"
-			(at 54.61 111.76 0)
+			(at 54.61 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1680,7 +1680,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 111.76 0)
+			(at 54.61 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1689,7 +1689,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 111.76 0)
+			(at 54.61 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2425,7 +2425,7 @@
 	)
 	(symbol
 		(lib_id "Earr_loggy_sym_lib:691137710002")
-		(at 54.61 90.17 90)
+		(at 54.61 87.63 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2434,7 +2434,7 @@
 		(dnp no)
 		(uuid "e1a83b01-6f72-4604-bfbc-2ac2ebdd1084")
 		(property "Reference" "J10"
-			(at 53.34 87.6299 90)
+			(at 53.34 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2443,7 +2443,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 64.262 85.09 90)
+			(at 64.262 82.55 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -2452,7 +2452,7 @@
 			)
 		)
 		(property "Footprint" "kicad_footprint-library-engg3800-alvin:691137710002"
-			(at 54.61 90.17 0)
+			(at 54.61 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2462,7 +2462,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 90.17 0)
+			(at 54.61 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2471,7 +2471,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 90.17 0)
+			(at 54.61 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2588,7 +2588,7 @@
 	)
 	(symbol
 		(lib_id "Earr_loggy_sym_lib:691137710002")
-		(at 54.61 68.58 90)
+		(at 54.61 66.04 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2597,7 +2597,7 @@
 		(dnp no)
 		(uuid "eb34963d-4d0e-4bec-a590-992148b649c5")
 		(property "Reference" "J9"
-			(at 53.34 66.0399 90)
+			(at 53.34 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2606,7 +2606,7 @@
 			)
 		)
 		(property "Value" "Screw_Terminal_01x02"
-			(at 64.262 63.5 90)
+			(at 64.262 60.96 90)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -2615,7 +2615,7 @@
 			)
 		)
 		(property "Footprint" "kicad_footprint-library-engg3800-alvin:691137710002"
-			(at 54.61 68.58 0)
+			(at 54.61 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2625,7 +2625,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 54.61 68.58 0)
+			(at 54.61 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2634,7 +2634,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 54.61 68.58 0)
+			(at 54.61 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)

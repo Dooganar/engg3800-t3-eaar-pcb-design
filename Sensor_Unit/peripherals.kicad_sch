@@ -1687,24 +1687,6 @@
 		(color 0 0 0 0)
 		(uuid "f4e96999-a584-486a-b6aa-15ac00e5f3d3")
 	)
-	(bus_entry
-		(at 43.18 31.75)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8dfa22f5-3d62-4b9a-805e-a5a5db1f5927")
-	)
-	(bus_entry
-		(at 43.18 26.67)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "954ef03b-dc81-4737-85e3-f66d512d27ab")
-	)
 	(wire
 		(pts
 			(xy 53.34 72.39) (xy 53.34 76.2)
@@ -2087,16 +2069,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 29.21) (xy 48.26 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47c71db8-8d5d-4710-8c7b-1680f1daf39d")
-	)
-	(wire
-		(pts
 			(xy 53.34 78.74) (xy 67.31 78.74)
 		)
 		(stroke
@@ -2297,16 +2269,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 34.29) (xy 48.26 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5e723508-d5ec-4113-9a51-a2074f42392a")
-	)
-	(wire
-		(pts
 			(xy 39.37 148.59) (xy 43.18 148.59)
 		)
 		(stroke
@@ -2354,16 +2316,6 @@
 			(type default)
 		)
 		(uuid "608ecc0d-cb5a-4a27-ba1b-a14c03c77eb4")
-	)
-	(bus
-		(pts
-			(xy 43.18 22.86) (xy 39.37 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61ae2f12-0a6c-48b2-bdbc-87f2c53cb9a8")
 	)
 	(wire
 		(pts
@@ -2858,16 +2810,6 @@
 		)
 		(uuid "b7347bee-8bd9-47ec-877f-8e046dab1e18")
 	)
-	(bus
-		(pts
-			(xy 43.18 26.67) (xy 43.18 22.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b75a1069-be66-4dc9-a7e6-73e2e2c73470")
-	)
 	(wire
 		(pts
 			(xy 226.06 144.78) (xy 215.9 144.78)
@@ -3128,16 +3070,6 @@
 		)
 		(uuid "e5bb2b84-dcd5-4128-86b0-9bc2fe8002bb")
 	)
-	(bus
-		(pts
-			(xy 43.18 31.75) (xy 43.18 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e9fb0ead-4d7e-41b7-9ef7-18d403533173")
-	)
 	(wire
 		(pts
 			(xy 137.16 146.05) (xy 137.16 140.97)
@@ -3375,17 +3307,6 @@
 				(hide yes)
 			)
 		)
-	)
-	(hierarchical_label "ALARM_LED_ARRAYS"
-		(shape bidirectional)
-		(at 39.37 22.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "63873c4a-4280-4230-8a23-fde1b98681c4")
 	)
 	(symbol
 		(lib_id "Device:R_US")

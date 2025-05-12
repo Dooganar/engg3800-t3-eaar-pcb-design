@@ -1299,54 +1299,12 @@
 		(uuid "a874702f-db81-45f7-9e4c-026643c314fa")
 	)
 	(no_connect
+		(at 102.87 100.33)
+		(uuid "acc80b87-94b1-41af-8347-e0c1de708d5f")
+	)
+	(no_connect
 		(at 195.58 85.09)
 		(uuid "f4d55b3d-925b-47e2-a8c3-3bb1b993a184")
-	)
-	(bus_entry
-		(at 189.23 44.45)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c2e9b3e-959e-4780-a205-71be3b93f0bd")
-	)
-	(bus_entry
-		(at 189.23 49.53)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a630692-6908-4b27-98d9-77e0045150fe")
-	)
-	(bus_entry
-		(at 58.42 49.53)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "40b6b48b-9e66-4cff-a5e8-70418483aacc")
-	)
-	(bus_entry
-		(at 58.42 44.45)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67f5a5ba-eac9-4671-becf-3b028d6d3976")
-	)
-	(wire
-		(pts
-			(xy 60.96 46.99) (xy 62.23 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0028abfd-d1e7-44bd-b42e-b0be62f87aa1")
 	)
 	(wire
 		(pts
@@ -1357,16 +1315,6 @@
 			(type default)
 		)
 		(uuid "0448b42d-cf8a-46a8-85d4-34e3dc852194")
-	)
-	(bus
-		(pts
-			(xy 58.42 44.45) (xy 58.42 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "04704db5-236d-4423-a1ae-c26ee9677490")
 	)
 	(wire
 		(pts
@@ -1438,16 +1386,6 @@
 		)
 		(uuid "354f5844-58dd-4e2e-8166-603747b687a0")
 	)
-	(bus
-		(pts
-			(xy 189.23 41.91) (xy 187.96 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "368b51ca-506e-4051-ba99-7ff83888f189")
-	)
 	(wire
 		(pts
 			(xy 210.82 72.39) (xy 227.33 72.39)
@@ -1498,16 +1436,6 @@
 		)
 		(uuid "472ca924-7e82-4b13-a2ee-7478bbd56854")
 	)
-	(bus
-		(pts
-			(xy 58.42 49.53) (xy 58.42 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49220061-3cc0-4d25-9a65-6753fd808d36")
-	)
 	(wire
 		(pts
 			(xy 54.61 102.87) (xy 54.61 74.93)
@@ -1517,16 +1445,6 @@
 			(type default)
 		)
 		(uuid "4b785634-01fa-4972-a269-72bf307361dc")
-	)
-	(bus
-		(pts
-			(xy 189.23 49.53) (xy 189.23 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4c550042-b27d-4ce3-b2fd-b17037f33fc2")
 	)
 	(wire
 		(pts
@@ -1590,16 +1508,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 52.07) (xy 62.23 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72a5c0d1-3e78-4f55-9aaf-74ee0c2ec70b")
-	)
-	(wire
-		(pts
 			(xy 204.3043 46.9651) (xy 215.7343 46.9651)
 		)
 		(stroke
@@ -1648,16 +1556,6 @@
 		)
 		(uuid "81cdce22-9d4b-4c0a-abb5-ef24554f5563")
 	)
-	(bus
-		(pts
-			(xy 58.42 41.91) (xy 57.15 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84204469-eea7-41d9-8cc0-f9ed3fa2acac")
-	)
 	(wire
 		(pts
 			(xy 205.74 72.39) (xy 210.82 72.39)
@@ -1667,16 +1565,6 @@
 			(type default)
 		)
 		(uuid "89ee6089-0fe2-4b32-a438-2f4f48ee9d63")
-	)
-	(wire
-		(pts
-			(xy 191.77 46.99) (xy 193.04 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ec277fa-cb8e-4a5a-b831-3970f4eb7d39")
 	)
 	(wire
 		(pts
@@ -1718,16 +1606,6 @@
 			(type default)
 		)
 		(uuid "9857b5f3-1ac8-4d07-b9ef-87d11ddf22b5")
-	)
-	(bus
-		(pts
-			(xy 189.23 44.45) (xy 189.23 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b9db9f9-6908-4c04-98b6-37ac60e5f300")
 	)
 	(wire
 		(pts
@@ -1828,16 +1706,6 @@
 			(type default)
 		)
 		(uuid "ca0617b1-3b4e-4fee-bd23-35ba7440d0d3")
-	)
-	(wire
-		(pts
-			(xy 191.77 52.07) (xy 193.04 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d391a5be-05a8-4188-8328-4facf2ec55c3")
 	)
 	(wire
 		(pts
@@ -2086,28 +1954,6 @@
 				(hide yes)
 			)
 		)
-	)
-	(hierarchical_label " TEMP_SENSOR"
-		(shape bidirectional)
-		(at 57.15 41.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2927cfe3-002c-4a64-9ae5-986f91e54742")
-	)
-	(hierarchical_label "ACCE_SENSOR"
-		(shape bidirectional)
-		(at 187.96 41.91 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "715cb6e4-bfc5-46d2-952f-2879da8aef8d")
 	)
 	(symbol
 		(lib_id "Sensor_Motion:LIS3DH")
