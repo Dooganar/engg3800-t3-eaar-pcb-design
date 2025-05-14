@@ -1,0 +1,106 @@
+
+(rules PCB Control_Unit_3
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute on)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 5883)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 2.0)
+    )
+  )
+  (rule
+    (width 200.0)
+    (clear 200.0)
+    (clear 100.0 (type smd_to_turn_gap))
+    (clear 50.0 (type smd_smd))
+  )
+  (padstack "Via[0-1]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:300_um" "Via[0-1]_600:300_um" default
+  )
+  (via 
+    "Via[0-1]_600:300_um-kicad_default" "Via[0-1]_600:300_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_600:300_um-All Nets" "Via[0-1]_600:300_um" "All Nets"
+  )
+  (via_rule
+    default "Via[0-1]_600:300_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_600:300_um-kicad_default"
+  )
+  (via_rule
+    "All Nets" "Via[0-1]_600:300_um-All Nets"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    GND +3V3 "Net-(U1-PC14)" "Net-(U1-PC15)" +5V "Btn_Up" "Btn_Down" "Btn_Left"
+    "Btn_Right" "Btn_Push" "Net-(C17-Pad1)" "JLink_RST" "Net-(D1-PadA)" "JLink_CLK" "JLink_SWDIO" "unconnected-(J1-KEY-Pad4)"
+    "unconnected-(J1-CLK-Pad9)" "/Joy and Sd and LCD/Button_Up" "/Optical Link/LED_CA" "Net-(J2-Pin_3)" "/Optical Link/LED_AN" "Net-(J3-Pin_1)" +3.3V "/Optical Link/FD_AN"
+    "TX_OPTICAL" "RX_OPTICAL" "Net-(LED1-A)" "Net-(LED2-A)" "Net-(Q1-B)" "Net-(Q1-E)" "Net-(Q2-G)" "Net-(Q2-D)"
+    "Net-(Q3-B)" "LCD_E" "LCD_R{slash}W" "SD_D0" "Net-(R9-Pad1)" "Net-(U4-V0)" "SAMPLING_LED" "unconnected-(SW1-Pad6)"
+    "Net-(SW1-Pad1)" "Net-(U2-3V3)" "unconnected-(SW1-Pad3)" "unconnected-(U1-PB0-Pad26)" "STM_TX" "unconnected-(U1-PA0-Pad14)" "/Joy and Sd and LCD/Button_Down" "unconnected-(U1-PB4-Pad56)"
+    "unconnected-(U1-PC12-Pad53)" "unconnected-(U1-PB7-Pad59)" "unconnected-(U1-PB2-Pad28)" "unconnected-(U1-PB5-Pad57)" "unconnected-(U1-PC8-Pad39)" "unconnected-(U1-PD2-Pad54)" "unconnected-(U1-PA8-Pad41)" "unconnected-(U1-PC0-Pad8)"
+    "unconnected-(U1-PA15-Pad50)" "unconnected-(U1-PA11-Pad44)" "SD_CS" "STM_RX" "unconnected-(U1-PC7-Pad38)" "unconnected-(U1-PB6-Pad58)" "LCD_RST" "unconnected-(U1-PA12-Pad45)"
+    "unconnected-(U1-PC10-Pad51)" "unconnected-(U1-PC1-Pad9)" "unconnected-(U1-PH1-Pad6)" "JLink_SW0" "unconnected-(U1-PC13-Pad2)" "Net-(U1-VBAT)" "unconnected-(U1-PH0-Pad5)" "unconnected-(U1-PC11-Pad52)"
+    "unconnected-(U1-PC4-Pad24)" "unconnected-(U1-PB9-Pad62)" "LCD_RS" "unconnected-(U1-PB8-Pad61)" "unconnected-(U1-PC9-Pad40)" "unconnected-(U1-PB11-Pad30)" "unconnected-(U2-PA11_A3_D3-Pad4)" "unconnected-(U2-PA31_SWDIO-Pad17)"
+    "unconnected-(U2-5V-Pad15)" "unconnected-(U2-GND-Pad16)" "unconnected-(U2-PA30_SWCLK-Pad18)" "unconnected-(U2-PA9_A5_D5_SCL-Pad6)" "unconnected-(U2-PA10_A2_D2-Pad3)" "unconnected-(U2-PA8_A4_D4_SDA-Pad5)" "unconnected-(U2-GND-Pad20)" "unconnected-(U2-PA7_A8_D8_SCK-Pad9)"
+    "unconnected-(U2-RESET-Pad19)" "unconnected-(U2-PA4_A1_D1-Pad2)" "unconnected-(U2-PA5_A9_D9_MISO-Pad10)" "unconnected-(U2-PA6_A10_D10_MOSI-Pad11)" "unconnected-(U2-PA02_A0_D0-Pad1)" "unconnected-(U3-DAT1{slash}X-Pad8)" "unconnected-(U3-DAT2{slash}X-Pad1)" "unconnected-(U4-DB2-Pad9)"
+    "unconnected-(U4-DB1-Pad8)" "unconnected-(U4-Vout-Pad18)" "unconnected-(U4-DB4-Pad11)" "unconnected-(U4-DB0-Pad7)" "unconnected-(U4-DB5-Pad12)" "unconnected-(U4-DB3-Pad10)" "unconnected-(U4-DB6-Pad13)" "unconnected-(U4-NC-Pad16)"
+    "unconnected-(U4-DB7-Pad14)" "unconnected-(U3-CD-PadCd)" "SD_CLK" "SD_CH0" "unconnected-(U1-PA6-Pad22)" "/Joy and Sd and LCD/Button_Left" "/Joy and Sd and LCD/Button_Right" "/Joy and Sd and LCD/Button_Push"
+    "Net-(U1-PH3)"
+    (clearance_class "kicad_default")
+    (via_rule kicad_default)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "All Nets"
+    (clearance_class "All Nets")
+    (via_rule All Nets)
+    (rule
+      (width 200.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

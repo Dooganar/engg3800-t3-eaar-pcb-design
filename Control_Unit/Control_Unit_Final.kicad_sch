@@ -1,0 +1,224 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "ad7d954a-8855-4fda-8068-d0d70e3f70ce")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 190.5 36.83)
+		(size 48.26 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2cc32bf1-06be-4acf-9401-6db743507f4b")
+		(property "Sheetname" "Peripherals"
+			(at 190.5 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Peripherals_sch.kicad_sch"
+			(at 190.5 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Control_Unit"
+				(path "/ad7d954a-8855-4fda-8068-d0d70e3f70ce"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 39.37 36.83)
+		(size 49.53 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "45bdd05f-cdfc-4667-8528-3a6de7b665bf")
+		(property "Sheetname" "Joy and Sd and LCD"
+			(at 39.37 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Joy_SD_LCD.kicad_sch"
+			(at 39.37 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Control_Unit"
+				(path "/ad7d954a-8855-4fda-8068-d0d70e3f70ce"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 41.91 110.49)
+		(size 54.61 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b12008dc-78ea-439c-a08d-c5afe282eb2b")
+		(property "Sheetname" "Optical Link"
+			(at 41.91 109.7784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Optical_Link.kicad_sch"
+			(at 41.91 155.5246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Control_Unit"
+				(path "/ad7d954a-8855-4fda-8068-d0d70e3f70ce"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 115.57 36.83)
+		(size 49.53 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c7a5f728-748f-4d4f-96c5-86d59ada049c")
+		(property "Sheetname" "MCU"
+			(at 115.57 36.1184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Main_Control_Unit.kicad_sch"
+			(at 115.57 79.3246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Control_Unit"
+				(path "/ad7d954a-8855-4fda-8068-d0d70e3f70ce"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 116.84 109.22)
+		(size 48.26 44.45)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ff8cfde8-9c52-4ab9-8c9f-700b48f6c7cf")
+		(property "Sheetname" "Xiao and JLink"
+			(at 116.84 108.5084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Xiao_and_JLink.kicad_sch"
+			(at 116.84 154.2546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Control_Unit"
+				(path "/ad7d954a-8855-4fda-8068-d0d70e3f70ce"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

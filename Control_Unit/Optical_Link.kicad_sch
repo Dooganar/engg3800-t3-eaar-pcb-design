@@ -2171,24 +2171,6 @@
 		(color 0 0 0 0)
 		(uuid "fcdb663f-f5d5-4723-98e2-7806a1b95445")
 	)
-	(bus_entry
-		(at 224.79 73.66)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03c1ae64-73f8-43c0-a963-c9a0b1da172c")
-	)
-	(bus_entry
-		(at 224.79 69.85)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a2679083-2577-4fcf-a4bc-26e7586c08f5")
-	)
 	(wire
 		(pts
 			(xy 45.72 96.52) (xy 45.72 102.87)
@@ -2269,16 +2251,6 @@
 		)
 		(uuid "1457bf11-33e3-4d53-81fc-51e4237832bf")
 	)
-	(bus
-		(pts
-			(xy 224.79 69.85) (xy 224.79 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "148ee516-287f-4852-9e6f-3475fec47235")
-	)
 	(wire
 		(pts
 			(xy 175.26 90.17) (xy 175.26 93.98)
@@ -2308,16 +2280,6 @@
 			(type default)
 		)
 		(uuid "1fb3b6eb-436a-47b8-a3e1-45a5e2ff1539")
-	)
-	(bus
-		(pts
-			(xy 224.79 68.58) (xy 222.25 68.58)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ffda371-e90d-4946-b872-b8bd638a7bc6")
 	)
 	(wire
 		(pts
@@ -2358,16 +2320,6 @@
 			(type default)
 		)
 		(uuid "2f2fe05c-7afb-47f2-a495-e13f2f88eb67")
-	)
-	(wire
-		(pts
-			(xy 227.33 72.39) (xy 229.87 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2ffc5c8d-373c-4886-b0eb-9910b239259b")
 	)
 	(wire
 		(pts
@@ -2469,16 +2421,6 @@
 		)
 		(uuid "50515629-8d7f-4802-bcea-e5778d924ef4")
 	)
-	(bus
-		(pts
-			(xy 224.79 73.66) (xy 224.79 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50a606d9-0bda-4019-8e85-e2d24fa14f85")
-	)
 	(wire
 		(pts
 			(xy 66.04 83.82) (xy 62.23 83.82)
@@ -2528,16 +2470,6 @@
 			(type default)
 		)
 		(uuid "629c44bc-1a38-4232-9e2d-926b7d37b8b0")
-	)
-	(wire
-		(pts
-			(xy 227.33 76.2) (xy 229.87 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6c3f91a8-b5f9-41da-85b4-7cdf1755f8e1")
 	)
 	(wire
 		(pts
@@ -2946,17 +2878,6 @@
 				(hide yes)
 			)
 		)
-	)
-	(hierarchical_label "OPTIC_LINK"
-		(shape bidirectional)
-		(at 222.25 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "6e26084f-b28b-42bd-9fc6-1c954d20556f")
 	)
 	(symbol
 		(lib_id "power:Earth")
