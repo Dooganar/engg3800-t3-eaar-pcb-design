@@ -4,10 +4,254 @@
 	(generator_version "9.0")
 	(uuid "ad7d954a-8855-4fda-8068-d0d70e3f70ce")
 	(paper "A4")
+	(title_block
+		(title "ENGG3800 Team 03: Loggy")
+		(date "2025-05-24")
+		(rev "1")
+		(comment 1 "Drawn By: Alvin Owen Antony")
+	)
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 88.9 93.98) (xy 88.9 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d293386-38e2-484e-a3fa-ce0943557f03")
+	)
+	(wire
+		(pts
+			(xy 177.8 35.56) (xy 177.8 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b3ce328-162b-4eba-b37e-5e6a7172e43b")
+	)
+	(wire
+		(pts
+			(xy 160.02 82.55) (xy 160.02 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b4a738f-a223-4cc1-8c9b-e961f5e75d53")
+	)
+	(wire
+		(pts
+			(xy 101.6 35.56) (xy 177.8 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61aea617-4458-4b98-b36c-b20a686f4b7d")
+	)
+	(wire
+		(pts
+			(xy 116.84 76.2) (xy 107.95 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e6f7b59-b244-4162-ae15-e79455692869")
+	)
+	(wire
+		(pts
+			(xy 177.8 45.72) (xy 186.69 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "850c3077-5d73-40f9-b6b0-0f5eb1931bab")
+	)
+	(wire
+		(pts
+			(xy 166.37 53.34) (xy 186.69 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8990a071-58e2-446e-b1d9-b67f6107fe53")
+	)
+	(wire
+		(pts
+			(xy 95.25 60.96) (xy 116.84 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95647c83-4d61-46be-a611-53ca9ab13b8b")
+	)
+	(wire
+		(pts
+			(xy 95.25 45.72) (xy 101.6 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a62972e3-913a-460a-bf5a-d60e6194c105")
+	)
+	(wire
+		(pts
+			(xy 107.95 76.2) (xy 107.95 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9b31a13-c71d-4069-9356-023805da53f4")
+	)
+	(wire
+		(pts
+			(xy 95.25 53.34) (xy 116.84 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd553891-008c-41be-8f05-13d346d099c0")
+	)
+	(wire
+		(pts
+			(xy 153.67 82.55) (xy 153.67 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc98d0ce-067f-48e5-b352-9cf293693a4f")
+	)
+	(wire
+		(pts
+			(xy 95.25 68.58) (xy 116.84 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d59ff4ec-01cd-4901-9e73-2c9e375d6b36")
+	)
+	(wire
+		(pts
+			(xy 107.95 93.98) (xy 88.9 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed2a5c40-96d7-4ef8-852a-2c31cefedac2")
+	)
+	(wire
+		(pts
+			(xy 101.6 45.72) (xy 101.6 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3c8d743-8631-4638-af0b-4dc3fe32ca26")
+	)
+	(global_label "SAMPLING_LED"
+		(shape input)
+		(at 186.69 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35d790a5-7cdc-450d-993b-3255c24dee7f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 203.3428 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SAMPLING_LED"
+		(shape output)
+		(at 166.37 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c57b8acc-fe6c-4e6a-afca-8328c3f441c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.7172 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RST_SWITCH"
+		(shape input)
+		(at 95.25 45.72 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e237ccdf-79ce-4b57-9794-d28fa42e939e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 81.0163 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "RST_SWITCH"
+		(shape input)
+		(at 186.69 45.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f090dcd7-3ded-4fdd-8f27-0cf69898eeb5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.9237 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(sheet
-		(at 190.5 36.83)
-		(size 48.26 41.91)
+		(at 186.69 40.64)
+		(size 49.53 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +266,7 @@
 		)
 		(uuid "2cc32bf1-06be-4acf-9401-6db743507f4b")
 		(property "Sheetname" "Peripherals"
-			(at 190.5 36.1184 0)
+			(at 186.69 39.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +275,7 @@
 			)
 		)
 		(property "Sheetfile" "Peripherals_sch.kicad_sch"
-			(at 190.5 79.3246 0)
+			(at 186.69 83.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,7 +284,7 @@
 			)
 		)
 		(instances
-			(project "Control_Unit"
+			(project "Control_Unit_Final"
 				(path "/ad7d954a-8855-4fda-8068-d0d70e3f70ce"
 					(page "5")
 				)
@@ -48,8 +292,8 @@
 		)
 	)
 	(sheet
-		(at 39.37 36.83)
-		(size 49.53 43.18)
+		(at 45.72 40.64)
+		(size 49.53 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -64,7 +308,7 @@
 		)
 		(uuid "45bdd05f-cdfc-4667-8528-3a6de7b665bf")
 		(property "Sheetname" "Joy and Sd and LCD"
-			(at 39.37 36.1184 0)
+			(at 45.72 39.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -73,7 +317,79 @@
 			)
 		)
 		(property "Sheetfile" "Joy_SD_LCD.kicad_sch"
-			(at 39.37 80.5946 0)
+			(at 45.72 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DISPLAY" bidirectional
+			(at 95.25 53.34 0)
+			(uuid "c2201d80-a476-45e4-9477-6c22ed403791")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "JOYSTICK" bidirectional
+			(at 95.25 60.96 0)
+			(uuid "9ae11a9e-565c-4771-b393-3c927f6707f8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD_CARD" bidirectional
+			(at 95.25 68.58 0)
+			(uuid "716f466a-3237-4db1-9c0b-fc3b50aeae4f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "Control_Unit_Final"
+				(path "/ad7d954a-8855-4fda-8068-d0d70e3f70ce"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 186.69 102.87)
+		(size 48.26 41.91)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "81e7312d-6833-4a06-92c5-1d90083abbc3")
+		(property "Sheetname" "Mechanicals"
+			(at 186.69 102.1584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Mechanicals_sch.kicad_sch"
+			(at 186.69 145.3646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -82,16 +398,16 @@
 			)
 		)
 		(instances
-			(project "Control_Unit"
+			(project "Control_Unit_Final"
 				(path "/ad7d954a-8855-4fda-8068-d0d70e3f70ce"
-					(page "4")
+					(page "7")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 41.91 110.49)
-		(size 54.61 44.45)
+		(at 46.99 102.87)
+		(size 48.26 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -106,7 +422,7 @@
 		)
 		(uuid "b12008dc-78ea-439c-a08d-c5afe282eb2b")
 		(property "Sheetname" "Optical Link"
-			(at 41.91 109.7784 0)
+			(at 46.99 102.1584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -115,7 +431,7 @@
 			)
 		)
 		(property "Sheetfile" "Optical_Link.kicad_sch"
-			(at 41.91 155.5246 0)
+			(at 46.99 145.3646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -123,8 +439,18 @@
 				(justify left top)
 			)
 		)
+		(pin "OPTIC_LINK" bidirectional
+			(at 88.9 102.87 90)
+			(uuid "a7a24062-ff94-4273-ab38-956b3d5bd550")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
-			(project "Control_Unit"
+			(project "Control_Unit_Final"
 				(path "/ad7d954a-8855-4fda-8068-d0d70e3f70ce"
 					(page "6")
 				)
@@ -132,7 +458,7 @@
 		)
 	)
 	(sheet
-		(at 115.57 36.83)
+		(at 116.84 40.64)
 		(size 49.53 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -148,7 +474,7 @@
 		)
 		(uuid "c7a5f728-748f-4d4f-96c5-86d59ada049c")
 		(property "Sheetname" "MCU"
-			(at 115.57 36.1184 0)
+			(at 116.84 39.9284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -157,7 +483,7 @@
 			)
 		)
 		(property "Sheetfile" "Main_Control_Unit.kicad_sch"
-			(at 115.57 79.3246 0)
+			(at 116.84 83.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -165,8 +491,68 @@
 				(justify left top)
 			)
 		)
+		(pin "JLINK" bidirectional
+			(at 160.02 82.55 270)
+			(uuid "8b54f534-2223-485f-bb14-653abf707e83")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DISPLAY" bidirectional
+			(at 116.84 53.34 180)
+			(uuid "32a19168-76a5-493a-b0a5-9b6546524e3f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "JOYSTICK" bidirectional
+			(at 116.84 60.96 180)
+			(uuid "738d9faa-1eab-4738-b335-775fbc5cccf3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "OPTIC_LINK" bidirectional
+			(at 116.84 76.2 180)
+			(uuid "3fe5323b-acbb-46f2-b933-1e002fdb7799")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_CARD" bidirectional
+			(at 116.84 68.58 180)
+			(uuid "dfc8f997-0303-45d1-b1e2-2a2d1e974f42")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "XIAO" bidirectional
+			(at 153.67 82.55 270)
+			(uuid "b36a7254-247e-496e-98c1-53b98a3030a5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
-			(project "Control_Unit"
+			(project "Control_Unit_Final"
 				(path "/ad7d954a-8855-4fda-8068-d0d70e3f70ce"
 					(page "2")
 				)
@@ -174,8 +560,8 @@
 		)
 	)
 	(sheet
-		(at 116.84 109.22)
-		(size 48.26 44.45)
+		(at 116.84 102.87)
+		(size 48.26 41.91)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -190,7 +576,7 @@
 		)
 		(uuid "ff8cfde8-9c52-4ab9-8c9f-700b48f6c7cf")
 		(property "Sheetname" "Xiao and JLink"
-			(at 116.84 108.5084 0)
+			(at 116.84 102.1584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -199,7 +585,7 @@
 			)
 		)
 		(property "Sheetfile" "Xiao_and_JLink.kicad_sch"
-			(at 116.84 154.2546 0)
+			(at 116.84 145.3646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -207,8 +593,28 @@
 				(justify left top)
 			)
 		)
+		(pin "JLINK" bidirectional
+			(at 160.02 102.87 90)
+			(uuid "20d1e358-828d-457e-b87e-6f719f3a7f33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "XIAO" bidirectional
+			(at 153.67 102.87 90)
+			(uuid "76053cb4-3663-442c-8b24-de7c20097c5d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
-			(project "Control_Unit"
+			(project "Control_Unit_Final"
 				(path "/ad7d954a-8855-4fda-8068-d0d70e3f70ce"
 					(page "3")
 				)
